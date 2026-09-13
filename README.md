@@ -10,13 +10,23 @@ _Аугментация изображений с помощью моделей 
 
 [Десереализация](https://github.com/laskovatr/ImageAugmentation/blob/main/dataset_factory.py#L88-L96)
 
-[Кастомный класс](https://github.com/laskovatr/ImageAugmentation/blob/main/dataset_factory.py#L60-L85)
+[Кастомный класс датасета](https://github.com/laskovatr/ImageAugmentation/blob/main/dataset_factory.py#L60-L85)
 
 [Пример конфигурационного файла](https://github.com/laskovatr/ImageAugmentation/blob/main/configs/ds_cfg.json)
 
 [Классы, реализующие десереализацию](https://github.com/laskovatr/ImageAugmentation/blob/main/dataset_factory.py#L11-L57)
 
 ## Работа с моделью 
-Необходимо было использовать `Qwen-Image-Edit` или квантованные версии. Работая на видеокарте `NVIDIA GeForce RTX 3070 Laptop GPU`, было доступно 8GB VRAM. Поэтому использовал модель [Qwen_Image_Edit-Q2_K](https://huggingface.co/QuantStack/Qwen-Image-Edit-GGUF?show_file_info=Qwen_Image_Edit-Q2_K.gguf)
+Необходимо было использовать `Qwen-Image-Edit` или квантованные версии. Работая на видеокарте `NVIDIA GeForce RTX 3070 Laptop GPU`, было доступно _8GB_ VRAM. Поэтому использовал модель [Qwen_Image_Edit-Q2_K](https://huggingface.co/QuantStack/Qwen-Image-Edit-GGUF?show_file_info=Qwen_Image_Edit-Q2_K.gguf). Однако и этого было много для видеокарты, поэтому генерация для одного изображения длилась несколько часов. Поэтому и было обработано всего 3 изображения.
+
+Так как могут понадобиться разные способы генерации (например, с помощью API, либо локально, но с использованием других фреймворков), то для этого были реализованы инструменты, позволяющие получать экземпляр генератора с помощью десереализации конфигурационного файла. Таким образом, в проект можно легко интегрировать новый тип генератора.
+
+[Десереализация](https://github.com/laskovatr/ImageAugmentation/blob/main/generator_factory.py#L107-L115)
+
+[Кастомный класс генератора](https://github.com/laskovatr/ImageAugmentation/blob/main/generator_factory.py#L60-L104)
+
+[Пример конфигурационного файла](https://github.com/laskovatr/ImageAugmentation/blob/main/configs/generator_cfg.json)
+
+[Классы, реализующие десереализацию](https://github.com/laskovatr/ImageAugmentation/blob/main/generator_factory.py#L11-L57)
 
 
