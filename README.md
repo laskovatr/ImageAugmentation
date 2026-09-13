@@ -46,6 +46,10 @@ python images_generator.py --inference-config configs/generator_cfg.json \
 ```
 
 ## Результат
-В качестве датасета были использованы 
+В качестве датасета были использованы изображение из папки `images`.
+
+| Исходное изображение | Сгенерированное изображение | Трансформированное изображение №1 | Трансформированное изображение №2 | Трансформированное изображение №3 | Трансформированное изображение №4 | Трансформированное изображение №5 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ![Исходное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/images/cat.jpg) | ![Сгенерированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat_0.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat_1.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat_2.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat_3.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat_4.jpg) |
 
 
