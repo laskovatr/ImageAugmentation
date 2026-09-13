@@ -36,4 +36,16 @@ _Аугментация изображений с помощью моделей 
 
 Каждое созданное изображение сохраняется в указанную папку (например, в `results`). Также вместе с созданным изображением туда же сохраняется и JSON-файл, содержащий в себе указатель на исходное изображение, промпт редактирования, указатель на финальное изображение ([пример JSON-файла](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat_1.json)).
 
+Пример вызова скрипта из командной строки:
+```
+python images_generator.py --inference-config configs/generator_cfg.json \
+                           --ds-config configs/ds_cfg.json \
+                           --prompts prompts/prompts.yaml \
+                           --output-path result \
+                           --augmentation-config configs/augmentation_cfg.json
+```
+
+## Результат
+В качестве датасета были использованы 
+
 
