@@ -46,10 +46,18 @@ python images_generator.py --inference-config configs/generator_cfg.json \
 ```
 
 ## Результат
-В качестве датасета были использованы изображение из папки `images`.
+В качестве датасета были использованы изображение из папки `images`. [Использовался данный промпт](https://github.com/laskovatr/ImageAugmentation/blob/main/prompts/prompts.yaml).
 
 | Исходное изображение | Сгенерированное изображение | Трансформированное изображение №1 | Трансформированное изображение №2 | Трансформированное изображение №3 | Трансформированное изображение №4 | Трансформированное изображение №5 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ![Исходное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/images/cat.jpg) | ![Сгенерированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat_0.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat_1.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat_2.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat_3.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/cat_4.jpg) |
+
+| Исходное изображение | Сгенерированное изображение | Трансформированное изображение №1 | Трансформированное изображение №2 | Трансформированное изображение №3 | Трансформированное изображение №4 | Трансформированное изображение №5 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ![Исходное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/images/dog.jpg) | ![Сгенерированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/dog.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/dog_0.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/dog_1.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/dog_2.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/dog_3.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/dog_4.jpg) |
+
+| Исходное изображение | Сгенерированное изображение | Трансформированное изображение №1 | Трансформированное изображение №2 | Трансформированное изображение №3 | Трансформированное изображение №4 | Трансформированное изображение №5 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ![Исходное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/images/jackal.jpeg) | ![Сгенерированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal_0.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal_1.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal_2.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal_3.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal_4.jpg) |
 
 
