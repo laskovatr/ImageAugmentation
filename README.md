@@ -60,4 +60,4 @@ python images_generator.py --inference-config configs/generator_cfg.json \
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ![Исходное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/images/jackal.jpeg) | ![Сгенерированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal_0.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal_1.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal_2.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal_3.jpg) | ![Трансформированное изображение](https://github.com/laskovatr/ImageAugmentation/blob/main/result/jackal_4.jpg) |
 
-
+Сформированные JSON-файлы так же лежат в папке `result`.
