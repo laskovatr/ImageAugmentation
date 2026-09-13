@@ -1,0 +1,7 @@
+{
+    "source_name": "images\\dog.jpg",
+    "result_name": "result\\dog_2.jpg",
+    "positive_prompts": "сделай фон синим, добавь мягкое кинематографическое освещение",
+    "negative_prompts": "размыто, низкое качество, артефакты, искажения",
+    "augmentations": "configs/albumentations.yml"
+}
