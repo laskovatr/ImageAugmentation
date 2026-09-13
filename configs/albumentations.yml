@@ -1,0 +1,67 @@
+__version__: 2.0.8
+transform:
+  __class_fullname__: Compose
+  additional_targets: {}
+  bbox_params: null
+  is_check_shapes: true
+  keypoint_params: null
+  p: 1.0
+  transforms:
+  - __class_fullname__: Perspective
+    border_mode: 0
+    fill: 0.0
+    fill_mask: 0.0
+    fit_output: false
+    interpolation: 1
+    keep_size: true
+    mask_interpolation: 0
+    p: 0.5
+    scale:
+    - 0.05
+    - 0.1
+  - __class_fullname__: RandomCrop
+    border_mode: 0
+    fill: 0.0
+    fill_mask: 0.0
+    height: 768
+    p: 1.0
+    pad_if_needed: true
+    pad_position: center
+    width: 768
+  - __class_fullname__: OneOf
+    p: 0.5
+    transforms:
+    - __class_fullname__: RGBShift
+      approximation: 1.0
+      b_shift_limit:
+      - -20.0
+      - 20.0
+      g_shift_limit:
+      - -20.0
+      - 20.0
+      noise_params:
+        noise_type: uniform
+        ranges:
+        - - -0.0784313725490196
+          - 0.0784313725490196
+        - - -0.0784313725490196
+          - 0.0784313725490196
+        - - -0.0784313725490196
+          - 0.0784313725490196
+      noise_type: uniform
+      p: 0.5
+      r_shift_limit:
+      - -20.0
+      - 20.0
+      spatial_mode: constant
+    - __class_fullname__: HueSaturationValue
+      hue_shift_limit:
+      - -20.0
+      - 20.0
+      p: 0.5
+      sat_shift_limit:
+      - -30.0
+      - 30.0
+      val_shift_limit:
+      - -20.0
+      - 20.0

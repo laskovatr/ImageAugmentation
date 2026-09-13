@@ -1,0 +1,5 @@
+{
+  "albumentations_config": "configs/albumentations.yml",
+  "sample_count": 5,
+  "random_seed": 0
+}
